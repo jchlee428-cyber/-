@@ -36,7 +36,7 @@ export const generateMeditation = async (verseInput: string): Promise<Meditation
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
   
   const response = await ai.models.generateContent({
-    model: "gemini-3-pro-preview",
+    model: "gemini-3-flash-preview",
     contents: `사용자의 상황 및 말씀: ${verseInput}`,
     config: {
       systemInstruction: SYSTEM_INSTRUCTION,
