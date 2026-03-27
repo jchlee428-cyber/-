@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-        base: '/은혜의-묵상과-영적-멘토링-gracereflect---christian-meditation-assistant/', 
+      base: '/-/',
       server: {
         port: 3000,
         host: '0.0.0.0',
