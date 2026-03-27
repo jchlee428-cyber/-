@@ -2,6 +2,7 @@
 export interface MeditationResult {
   verse: string;
   meditation: string;
+  christConnection: string;
   mentorWisdom: string;
   application: string;
   prayer: string;
